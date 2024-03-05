@@ -1,0 +1,29 @@
+{
+  "name": "figmaclient",
+  "version": "0.1.0",
+  "description": "Client app that allows to run Figma editor outside the web browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/penkodrist/FigmaClient.git"
+  },
+  "keywords": [
+    "figma",
+    "client",
+    "portable"
+  ],
+  "author": "penkodrist",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/penkodrist/FigmaClient/issues"
+  },
+  "homepage": "https://github.com/penkodrist/FigmaClient#readme",
+  "devDependencies": {
+    "electron": "^29.1.0",
+    "electron-builder": "^24.13.3"
+  }
+}
